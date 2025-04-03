@@ -1,0 +1,74 @@
+body {
+  font-family: "Roboto" sans-serif;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 0px;
+}
+.nav-link {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+}
+.address-link {
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+.main-title {
+  font-weight: 700;
+  font-size: 56px;
+
+  /* line-height: 60px; */
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white);
+}
+.main-button {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 10px;
+  cursor: pointer;
+}
+.main-title-2 {
+  display: none;
+}
+.main-title-3 {
+  font-weight: 500;
+  font-size: 20px;
+
+  /* line-height: 24px; */
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.text {
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+.text-footer {
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cloud);
+}
