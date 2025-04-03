@@ -1,4 +1,4 @@
-.body {
+body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
@@ -13,15 +13,16 @@
   text-transform: uppercase;
   color: #4d5ae5;
 }
+
 .span {
-  color: #f4f4fd;
+  color: #2e2f42;
 }
 .nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #434455;
 }
 .nav-link:hover {
   color: #404bbf;
@@ -48,15 +49,15 @@
 }
 /* section-effective-solutions */
 .section-effective-solutions {
-  background-color: var(--navy-blue);
+  background-color: #2e2f42;
 }
 .main-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--white);
+  color: #ffffff;
 }
 .main-button {
   font-family: "Roboto", sans-serif;
@@ -65,13 +66,10 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--white);
+  color: #4d5ae5;
   cursor: pointer;
 }
-.main-button:hover {
-  color: #404bbf;
-}
-.main-button:focus {
+.main-button:hover :focus {
   color: #404bbf;
 }
 /* main-2 */
@@ -80,18 +78,18 @@
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
+  color: #2e2f42;
 }
 .text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--slate);
+  color: #434455;
 }
 /* Our Team */
 .section-team {
-  background: var(--cloud);
+  background-color: #f4f4fd;
 }
 .list-team {
   background-color: #ffffff;
@@ -99,10 +97,14 @@
 .title-team {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--navy-blue);
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+.team-item {
+  background-color: #ffffff;
 }
 .title-name {
   font-weight: 500;
@@ -110,7 +112,7 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--navy-blue);
+  color: #2e2f42;
 }
 .text-team {
   font-weight: 400;
@@ -118,30 +120,31 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--slate);
+  color: #434455;
 }
 /* Our Portfolio */
 .title-portfolio {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--navy-blue);
+  color: #2e2f42;
+  text-transform: capitalize;
 }
 .title-portfolio-3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
+  color: #2e2f42;
 }
 .text-portfolio {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--slate);
+  color: #434455;
 }
 /* Footer */
 footer {
