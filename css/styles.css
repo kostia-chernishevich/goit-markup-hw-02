@@ -28,9 +28,11 @@ body {
 }
 .nav-link:hover {
   background-color: #404bbf;
+  color: #404bbf;
 }
 .nav-link:focus {
   background-color: #404bbf;
+  color: #404bbf;
 }
 /* address */
 .address {
@@ -63,19 +65,26 @@ body {
 }
 .main-button {
   font-family: "Roboto", sans-serif;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
 }
+
 .main-button:hover {
-  color: #404bbf;
+  background-color: #404bbf;
 }
+
 .main-button:focus {
-  color: #404bbf;
+  background-color: #404bbf;
+  outline: none;
 }
 /* main-2 */
 .main-title-3 {
