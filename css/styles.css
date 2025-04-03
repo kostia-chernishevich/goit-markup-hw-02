@@ -72,24 +72,22 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  transition: background-color 0.3s ease;
 }
 
-.main-button:hover {
+.main-button :hover {
   background-color: #404bbf;
-  color: #ffffff;
+  color: #404bbf;
 }
 
-.main-button:focus {
+.main-button :focus {
   background-color: #404bbf;
-  color: #ffffff;
-  outline: none;
+  color: #404bbf;
 }
 /* main-2 */
 .title-hidden {
   display: none;
 }
-.main-title-3 {
+.title-contant {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
