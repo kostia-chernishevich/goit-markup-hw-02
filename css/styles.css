@@ -76,12 +76,10 @@ body {
 
 .main-button :hover {
   background-color: #404bbf;
-  color: #404bbf;
 }
 
 .main-button :focus {
   background-color: #404bbf;
-  color: #404bbf;
 }
 /* main-2 */
 .title-hidden {
